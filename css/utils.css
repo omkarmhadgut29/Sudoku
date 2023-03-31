@@ -1,0 +1,41 @@
+.border__x {
+    border-right: 1px solid rgb(134, 134, 134);
+    border-left: 2px solid rgb(134, 134, 134);
+}
+
+.border__top {
+    border-top: 2px solid rgb(134, 134, 134);
+}
+
+.border__bottom {
+    border-bottom: 2px solid rgb(134, 134, 134);
+}
+
+.border__bottom_sm {
+    border-bottom: 1px solid rgb(134, 134, 134, 0.5);
+}
+
+.border__mid {
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+
+.border__right {
+    border-right: 2px solid rgb(134, 134, 134);
+}
+
+.row_border_x {
+    border: 2px solid blue;
+}
+
+.border__right_sm {
+    border-right: 1px solid rgb(134, 134, 134, 0.5);
+}
+
+.cursor__pointer {
+    cursor: pointer;
+}
+
+.bg_click_color {
+    background-color: #d1d8e0;
+    border: 1px solid gray;
+}
