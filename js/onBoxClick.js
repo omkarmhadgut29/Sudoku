@@ -5,13 +5,16 @@ function keyPress(e, param) {
 }
 
 let keyPressListner = null;
+
 function onBoxClick(param) {
     let classBg = document.getElementsByClassName("bg_click_color");
     if (classBg.length > 0) {
         classBg[0].classList.remove("bg_click_color");
     }
+    // When user clicks on box then box gets highlighted
     param.target.classList.add("bg_click_color");
 
+    // Adding Keyboard keypress event
     if (keyPressListner !== null) {
         document.removeEventListener("keypress", keyPressListner);
     }

@@ -5,16 +5,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+    <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Recursive&family=Red+Rose&family=Sriracha&family=Ubuntu&family=Poppins&family=Raleway&display=swap"
         rel="stylesheet" />
+    <!-- Sweet Alert -->
     <link href="
-https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
-" rel="stylesheet" />
+        https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
+        " rel="stylesheet" />
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Utilities Classess -->
     <link rel="stylesheet" href="./css/utils.css" />
+    <!-- Page Title -->
     <title>Sodoku</title>
 </head>
 
@@ -22,12 +28,15 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
     <div class="container-fluid main__container d-flex justify-content-center align-items-center">
         <div class="sudoku__container d-flex justify-content-center">
             <div>
+                <!-- Game Title -->
                 <div class="sudoku__title pt-2 pb-4 text-center">
                     SUDOKU
                 </div>
 
+                <!-- Starting page code. -->
                 <div id="start__page" class="mt-5 pt-5">
                     <div id="selection__level" class="selection d-flex pb-4 mb-5">
+                        <!-- Levels of Game -->
                         <span class="title fs-2 pe-5">Level</span>
                         <div class="options">
                             <button class="option btn btn-light mx-2 px-4 py-2 active">
@@ -41,6 +50,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
                             </button>
                         </div>
                     </div>
+                    <!-- Start Game Button -->
                     <div class="text-center">
                         <button id="start" class="btn btn-success px-5 py-2 mt-5">
                             Start
@@ -48,10 +58,14 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
                     </div>
                 </div>
 
+                <!-- Sudoku Grid -->
                 <div class="text-center d-none" id="grid__container">
                     <div id="sudoku__grid" class="">
-                        <div></div>
+                        <div>
+                            <!-- Grid will be displaying here from JavaScript -->
+                        </div>
                     </div>
+                    <!-- Game Submit Button -->
                     <div class="my-2 mt-4">
                         <button class="btn btn-success px-5 py-2" id="submit">
                             Submit
@@ -62,13 +76,17 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
         </div>
     </div>
 
+    <!-- Sweet Alert -->
     <script src="
     https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js
     "></script>
+    <!-- Axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
+    <!-- Custom JS -->
     <script src="./js/index.js" type="module"></script>
 </body>
 
